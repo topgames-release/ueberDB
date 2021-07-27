@@ -1,5 +1,13 @@
 # Notable Changes
 
+## v1.4.14
+
+* `postgres`, `postgrespool`: The `postgrespool` database driver was renamed to
+  `postgres`, replacing the old `postgres` driver. The old `postgrespool` name
+  is still usable, but is deprecated. For users of the old `postgres` driver,
+  this change increases the number of concurrent database connections. You may
+  need to increase your configured connection limit.
+
 ## v1.4.13
 
 * `mongodb`: The `dbName` setting has been renamed to `database` for consistency
