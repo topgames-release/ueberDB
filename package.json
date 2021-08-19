@@ -1,7 +1,7 @@
 {
-  "name": "ueberdb2",
+  "name": "@topgames/ueberdb2",
   "description": "transform every database into a object key value store",
-  "url": "https://github.com/ether/ueberDB",
+  "url": "https://github.com/topgames-release/ueberDB",
   "keywords": [
     "database",
     "keyvalue"
@@ -40,36 +40,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ether/ueberDB.git"
+    "url": "https://github.com/topgames-release/ueberDB.git"
   },
   "main": "./CloneAndAtomicLayer",
-  "version": "0.4.9",
-  "gitHead": "00cb8c896433922111c12fe9d2a45087fdb11d59",
+  "version": "0.4.9-lc.0",
   "bugs": {
-    "url": "https://github.com/ether/ueberDB/issues"
+    "url": "https://github.com/topgames-release/ueberDB/issues"
   },
-  "homepage": "https://github.com/ether/ueberDB",
-  "_id": "ueberdb2@0.3.0",
-  "scripts": {},
-  "_shasum": "cbebe8b8a0879f4ca970c3d69bd578e291d6e835",
-  "_from": "ueberdb2@0.3.0",
-  "_npmVersion": "2.5.1",
-  "_nodeVersion": "0.12.0",
-  "_npmUser": {
-    "name": "johnyma22",
-    "email": "john@mclear.co.uk"
-  },
+  "homepage": "https://github.com/topgames-release/ueberDB",
   "maintainers": [
     {
       "name": "johnyma22",
       "email": "john@mclear.co.uk"
     }
   ],
-  "dist": {
-    "shasum": "cbebe8b8a0879f4ca970c3d69bd578e291d6e835",
-    "tarball": "http://registry.npmjs.org/ueberdb2/-/ueberdb2-0.3.0.tgz"
-  },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/ueberdb2/-/ueberdb2-0.3.0.tgz",
-  "readme": "ERROR: No README data found!"
+  "readme": "ERROR: No README data found!",
+  "publishConfig": {
+    "access": "public"
+  }
 }
